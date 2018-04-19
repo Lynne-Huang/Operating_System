@@ -1,8 +1,6 @@
 # Operating_System
 利用Java模拟操作系统经典问题和算法
 
-# 利用Java模拟操作系统经典问题和算法
-<br>
 ## 实验一——读者写者问题（3.26完成）<br>
  *  Test-and-set,这种方法无法控制读者同时读<br>
  *  synchroniz 可以实现同步读，读写互斥，写写互斥，这种是最佳方案，利用synchroniz中的方法配合使用<br>
