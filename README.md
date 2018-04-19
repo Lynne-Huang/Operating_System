@@ -9,12 +9,12 @@
     * synchroniz 自己写的，配合notifyALL一起，没有系统的好<br>
 
 ## 实验二——进程调度（4.19完成）
-    * 利用PriorityQueue，实现优先级队列，完成进程调度<br>
-    * 始终保持只执行队首进程<br>
-    * 包含<br>
+ * 利用PriorityQueue，实现优先级队列，完成进程调度<br>
+ * 始终保持只执行队首进程<br>
+   * 包含<br>
         *  PCB设置进程属性<br>
         *  PriorityQueue队列排序<br>
         *  PCB进程运行的具体操作<br>
         *  测试demo<br>
-    * 祥见process_scheduling<br>
+ * 祥见process_scheduling<br>
  
