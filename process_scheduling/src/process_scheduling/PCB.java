@@ -1,6 +1,6 @@
 package process_scheduling;
 
-public class PCB {
+public class PCB {  //定义PCB属性
     private String name;
     private int duringTime;
     private int priority;
@@ -15,6 +15,7 @@ public class PCB {
 
     @Override
     public String toString() {
+
         return getName()+"\t\t"+getDuringTime()+"\t\t"+getState()+"\t\t"+getPriority();
     }
 

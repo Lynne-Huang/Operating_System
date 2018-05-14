@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Memory_dynamic_partition/Memory_dynamic_partition.iml" filepath="$PROJECT_DIR$/Memory_dynamic_partition/Memory_dynamic_partition.iml" />
       <module fileurl="file://$PROJECT_DIR$/Operating_System.iml" filepath="$PROJECT_DIR$/Operating_System.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bilibili/bilibili.iml" filepath="$PROJECT_DIR$/bilibili/bilibili.iml" />
+      <module fileurl="file://$PROJECT_DIR$/file_operation/file_operation.iml" filepath="$PROJECT_DIR$/file_operation/file_operation.iml" />
       <module fileurl="file://$PROJECT_DIR$/process_scheduling/process_scheduling.iml" filepath="$PROJECT_DIR$/process_scheduling/process_scheduling.iml" />
       <module fileurl="file://$PROJECT_DIR$/read_and_write/read_and_write.iml" filepath="$PROJECT_DIR$/read_and_write/read_and_write.iml" />
     </modules>

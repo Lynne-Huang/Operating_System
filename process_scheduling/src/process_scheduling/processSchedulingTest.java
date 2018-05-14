@@ -4,7 +4,7 @@ package process_scheduling;
 
 import java.util.Comparator;
 import java.util.PriorityQueue;
-public class processSchedulingTest {
+public class processSchedulingTest {    //这是一个测试类
     public static int nowtime = 0;
 
     public static Comparator<PCB> pcbs=new Comparator<PCB>() {

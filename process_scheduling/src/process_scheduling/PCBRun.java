@@ -2,7 +2,7 @@ package process_scheduling;
 
 import java.util.PriorityQueue;
 
-public class PCBRun implements Runnable{
+public class PCBRun implements Runnable{    //PCB具体的操作，执行进程，修改进程优先级之类的
     private PriorityQueue<PCB> queue;
     public PCBRun(PriorityQueue<PCB> queue){
         this.queue = queue;
@@ -21,10 +21,11 @@ public class PCBRun implements Runnable{
                 take.setState("Writing");
                 System.out.println(take.toString());
                 try {
-                    Thread.sleep(1000);
                     for (PCB e : queue) {
                         System.out.println(e.toString());
                     }
+                    Thread.sleep(1000);
+
                     processSchedulingTest.nowtime++;
                     //修改进程仍需时间
                     take.setDuringTime(take.getDuringTime() - 1);

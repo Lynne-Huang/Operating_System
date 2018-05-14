@@ -3,7 +3,7 @@ package process_scheduling;
 import java.util.PriorityQueue;
 
 
-public class PCBRunnable implements Runnable{
+public class PCBRunnable implements Runnable{   //进程进入队列还有排序
 
     private PriorityQueue<PCB> queue;
 
