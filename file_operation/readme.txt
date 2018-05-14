@@ -1,0 +1,1 @@
+ABHello,ABAB this ABis ABABABa ABtest. ABIf AByou ABcan ABABsee ABABthe ABABABmeaning ofAB theABABAB wordAB correctlyABAB, ABthenAB writeAB ABitAB ABrightAB.
