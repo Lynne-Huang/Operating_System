@@ -5,7 +5,8 @@
  *  Test-and-set,这种方法无法控制读者同时读<br>
  *  synchroniz 可以实现同步读，读写互斥，写写互斥，这种是最佳方案，利用synchroniz中的方法配合使用<br>
  *  synchroniz 自己写的，配合notifyALL一起，没有系统的好<br>
-
+ * 祥见[read_and_write](https://github.com/Lynne-Huang/Operating_System/tree/master/read_and_write "项目地址") <br>
+ 
 ## 实验二——进程调度（4.19完成）<br>
  * 利用PriorityQueue，实现优先级队列，完成进程调度<br>
  * 始终保持只执行队首进程<br>
@@ -14,7 +15,8 @@
         *  PriorityQueue队列排序<br>
         *  PCB进程运行的具体操作<br>
         *  测试demo<br>
- * 祥见process_scheduling<br>
+ * 祥见[process_scheduling](https://github.com/Lynne-Huang/Operating_System/tree/master/process_scheduling "项目地址") <br>
+ 
  ## 实验三——可变分区管理。（4.29完成）<br>
  * 实验题目。<br>
    * 模拟主存储器空间的分配和回收。<br>
