@@ -29,7 +29,7 @@
 ![首次适应算法](https://github.com/Lynne-Huang/Operating_System/blob/master/Memory_dynamic_partition/%E9%A6%96%E6%AC%A1%E9%80%82%E5%BA%94%E7%AE%97%E6%B3%95.png"首次适应算法")<br>
   2.采用循环首次适应算法分配主存空间。<br>
 该算法是首次适应算法的变种。在分配内存空间时，不是每次从表头（链首）开始查找，而是从上次找到空闲区的下一个空闲开始查找，直到找到第一个能满足要求的的空闲区为止，并从中划出一块与请求大小相等的内存空间分配给作业。该算法能使内存中的空闲区分布得较均匀。<br>
-![循环首次适应算法](https://github.com/Lynne-Huang/Operating_System/blob/master/Memory_dynamic_partition/%E5%BE%AA%E7%8E%AF%E9%A6%96%E6%AC%A1%E9%80%82%E5%BA%94%E7%AE%97%E6%B3%95.png"循环首次适应算法")<br>
+![循环首次适应算法](/Memory_dynamic_partition/循环首次适应算法.png"循环首次适应算法")<br>
   3.当一个作业执行结束撤离时，作业所占的区域应该归还，归还的区域如果与其它空闲区相邻，则应合成一个较大的空闲区，登记在空闲区说明表中。<br>
 ## 程序运行结果分析
 ![运行结果1](/Memory_dynamic_partition/1.png"运行结果1")<br>
