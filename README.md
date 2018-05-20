@@ -17,11 +17,11 @@
         *  测试demo<br>
  * 祥见[process_scheduling](https://github.com/Lynne-Huang/Operating_System/tree/master/process_scheduling "项目地址") <br>
  
- ## 实验三——可变分区管理。（4.29完成）<br>
- * 实验题目。<br>
+ ## 实验三——可变分区管理。4.29完成）<br>
+ * 实验题目<br>
    * 模拟主存储器空间的分配和回收。<br>
- * 实验内容。<br>
-  * 在可变分区管理方式下采用循环首次适应算法实现主存分配和实现主存回收。。<br>
+ * 实验内容<br>
+  * 在可变分区管理方式下采用循环首次适应算法实现主存分配和实现主存回收。<br>
   1.可变分区方式是按作业需要的主存空间大小来分割分区的。当要装入一个作业时，根据作业需要的主存量查看是否有足够的空闲空间，若有，则按需要量分割一个分区分配给该作业；若无，则作业不能装入。随着作业的装入、撤离，主存空间被分成许多个分区，有的分区被作业占用，而有的分区是空闲的。<br>
         ![主存分区情况](/Memory_dynamic_partition/QQ截图20180514144112.png "主存分区情况")<br>
 ![分区情况](/Memory_dynamic_partition/QQ截图20180514144156.png "分区情况")<br>
@@ -43,3 +43,29 @@
 ![运行结果5](/Memory_dynamic_partition/5.png "运行结果5")<br>
 ![运行结果6](/Memory_dynamic_partition/6.png "运行结果6")<br>
   本次实验实现了内存首次适应算法和循环首次适应算法，还有内存的回收。代码详见：[Memory_dynamic_partition](https://github.com/Lynne-Huang/Operating_System/tree/master/Memory_dynamic_partition/src "项目地址") <br>
+## 实验四 文件操作（5.20完成）<br>
+ * 实验题目<br>
+   * 文件操作<br>
+ * 实验目的<br>
+    * 熟悉流式文件的读写操作<br>
+ * 实验内容<br>
+    * 设有一个含‘AB’字符串的流式文件“readme.txt”，请设计一个程序将“readme.txt”中所有的“AB”字符串删除并生成一个新的文件“new\readme2.txt”.<br>
+ * 思路<br>
+  1.将文件内容读入字符串数组<br>
+  2.用正则表达式将字符串内容切割<br>
+  3.将字符串内容保存到目标文件中<br>
+ * 实验结果
+  1.运行程序前先创建readme.txt文件<br>
+   ![运行结果1](/file_operation/1.png "运行结果1")<br>
+  2.运行程序前先创建weiteme.txt文件<br>
+   ![运行结果2](/file_operation/2.png "运行结果2")<br>
+  3.运行程序 <br>
+   ![运行结果3](/file_operation/3.png "运行结果3")<br>
+  4创建了一个writem.txt文件<br>
+   ![运行结果4](/file_operation/4.png "运行结果4")<br>
+  5.删除AB后的文本也保存在目标文件中 <br>
+   ![运行结果5](/file_operation/5.png "运行结果5")<br>
+
+ 
+
+ 
